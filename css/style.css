@@ -25,3 +25,17 @@ main{
 footer{
     height: 70px;
 }
+.ms_container{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+}
+.boxFinished{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    background-color: blanchedalmond;
+
+}
