@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+}
+.ms_logo{
+    height: 60px;
+    width: 60px;
+}
+.ms_title{
+    height: 100%;
+}
+#buttonStartGame{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+main{
+    height: calc(100vh - 140px);
+}
+footer{
+    height: 70px;
+}
