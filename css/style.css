@@ -16,11 +16,12 @@ header{
 #buttonStartGame{
     height: 30px;
     border: 1px solid black;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 main{
     height: calc(100vh - 140px);
+    overflow-y: auto;
+    position: relative;
 }
 footer{
     height: 70px;
@@ -33,6 +34,9 @@ footer{
     background-color: blueviolet;
 }
 .boxFinished{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
