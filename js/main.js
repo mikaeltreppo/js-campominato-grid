@@ -7,10 +7,10 @@ let buttonDom = document.getElementById('buttonStartGame');
 //riparte il gioco
 buttonDom.addEventListener('click',
     function () {
-        entranceDom.classList.toggle('d-none')
+        location.reload(); 
     });
 
-//creato numero all'interno e box
+//creato numero all'interno e box e sfondo blu
 for (let i = 1; i <= 100; i++) {
     let boxCreated = createBox();
     let num = i;
