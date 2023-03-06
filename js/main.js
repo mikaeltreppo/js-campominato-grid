@@ -10,12 +10,6 @@ buttonDom.addEventListener('click',
         entranceDom.classList.toggle('d-none')
     });
 
-
-
-
-
-
-
 //creato numero all'interno e box
 for (let i = 1; i <= 100; i++) {
     let boxCreated = createBox();
@@ -25,12 +19,9 @@ for (let i = 1; i <= 100; i++) {
     boxCreated.addEventListener('click',
         function () {
             console.log(num)
+            boxCreated.classList.toggle('bg_blue');
         })
 }
-
-
-
-
 
 //funzione creare caselle
 function createBox() {
